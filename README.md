@@ -8,13 +8,13 @@ Pleade visit [http://spacekid.me/color-tunes](http://spacekid.me/color-tunes).
 
 # Acknowledgements
 
-* [@dannvix](http://fb.me/5ad59707473276e74191bd7d4929b95b): Author of [ColorTunes for iTunes 11](https://github.com/dannvix/ColorTunes).
-* [@zhusee2](https://twitter.com/zhusee2): Author of [ColorTunes for iTunes 11](https://github.com/dannvix/ColorTunes).
-* [Nick Rabinowitz](http://github.com/nrabinowitz): [JavaScript port](https://gist.github.com/1104622) of the MMCQ algorithm.
+* [@dannvix](http://fb.me/5ad59707473276e74191bd7d4929b95b): Author of [ColorTunes for iTunes 11](https://github.com/dannvix/ColorTunes)
+* [@zhusee2](https://twitter.com/zhusee2): Page designer of [ColorTunes for iTunes 11](https://github.com/dannvix/ColorTunes)
+* [Nick Rabinowitz](http://github.com/nrabinowitz): [JavaScript port](https://gist.github.com/1104622) of the MMCQ algorithm
 
 # License
 
-Copyright (c) 2015 太空小孩
+Copyright © 2015 太空小孩
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
