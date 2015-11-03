@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="太空小孩" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>ColorTunes – 太空小孩</title>
+    <!-- Bootstrap Core CSS Version 3.3.4 -->
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <!-- ColorTunes -->
+    <link rel="stylesheet" href="styles/color-tunes.css" />
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/track-info.js"></script>
+    <script src="scripts/quantize.js"></script>
+    <script src="scripts/color-tunes.js"></script>
+    <script src="scripts/application.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="page-header">
+      <h1>ColorTunes <small>for iTunes 12</small></h1>
+    </div>
+    <p class="text-muted">
+      <small>
+        This demo may require a latest version of Chrome, Safari or Firefox.
+        <br />
+        WARNING: color-tunes.js doesn't work if you view the page via file://.
+      </small>
+    </p>
+    <!-- Core -->
+    <div class="color-tunes">
+      <ul class="cover-picker unstyled clearfix">
+        <li>
+          <a href="#parachutes"><img src="images/parachutes.jpg" alt="Parachutes by Coldplay" /></a>
+          <span class="cover-title">Parachutes</span>
+          <span class="cover-artist">Coldplay</span>
+        </li>
+        <li>
+          <a href="#heavy-sky"><img src="images/heavy-sky.jpg" alt="Heavy Sky by 65daysofstatic" /></a>
+          <span class="cover-title">Heavy Sky</span>
+          <span class="cover-artist">65daysofstatic</span>
+        </li>
+        <li>
+          <a href="#yu-shi"><img src="images/yu-shi.jpg" alt="Transatlanticism by Death Cab for Cutie" /></a>
+          <span class="cover-title">于是 - Single</span>
+          <span class="cover-artist">邓紫棋</span>
+        </li>
+        <li>
+          <a href="#yes"><img src="images/yes.jpg" alt="Yes! by Jason Mraz" /></a>
+          <span class="cover-title">Yes!</span>
+          <span class="cover-artist">Jason Mraz</span>
+        </li>
+        <li>
+          <a href="#4-walls"><img src="images/4-walls.jpg" alt="‘4 Walls’ - The 4th Album by f(x)" /></a>
+          <span class="cover-title">‘4 Walls’ - The 4th Album</span>
+          <span class="cover-artist">f(x)</span>
+        </li>
+        <li>
+          <a href="#emotion"><img src="images/emotion.jpg" alt="E•MO•TION (Deluxe) by Carly Rae Jepsen" /></a>
+          <span class="cover-title">E•MO•TION (Deluxe)</span>
+          <span class="cover-artist">Carly Rae Jepsen</span>
+        </li>
+      </ul>
+      <div class="playlist-indicator hidden"></div>
+    </div>
+    <div class="color-tunes playlist closed hidden transition transition-height">
+      <div class="playlist-inner clearfix">
+        <div class="playlist-background">
+          <img class="background-image center" src="" alt="background" />
+        </div>
+        <div class="album-cover">
+          <canvas id="album-canvas" width="300" height="450"></canvas>
+          <img class="album-artwork" src="" alt="album-artwork" />
+        </div>
+        <div class="album-info">
+          <h3 class="album-title"></h3>
+          <h4 class="album-artist">
+            <span class="artist-name"></span> <span class="released-on"></span>
+          </h4>
+          <hr class="album-divider" />
+          <ol class="album-tracks">
+            <li>
+              <h5 class="track-title"></h5>
+              <span class="track-playtime"></span>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <!-- End of Core -->
+    <div class="footer">
+      <p class="text-muted">
+        Based on <a href="https://github.com/dannvix/ColorTunes" target="_blank">ColorTunes</a>. Developed by <a href="http://fb.me/5ad59707473276e74191bd7d4929b95b" target="_blank">@dannvix</a>, <a href="https://twitter.com/zhusee2" target="_blank">@zhusee2</a> and <a href="http://spacekid.me/" target="_blank">太空小孩</a>. Licensed under the <a href="http://www.opensource.org/licenses/mit-license.php" target="_blank">MIT license</a>.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
