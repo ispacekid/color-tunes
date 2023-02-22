@@ -1,5 +1,9 @@
 # ColorTunes
 
+**注意**：本项目已不再维护，可以移步作者个人主页 [https://spacekid.me/](https://spacekid.me/) 了解我的其他项目。谢谢关注！
+
+**Notice**: This project is no longer maintained. Check my homepage [https://spacekid.me/](https://spacekid.me/) for more projects.
+
 ## Introduction
 
 ColorTunes is a HTML5 version of the iTunes 12 album view using Javascript and CSS3, which is able to detect the colors in an album cover and generate color scheme for its track list based on the reduced color space. This version of ColorTunes is based on [ColorTunes for iTunes 11](https://github.com/dannvix/ColorTunes), which is developed by [@dannvix](http://fb.me/5ad59707473276e74191bd7d4929b95b) and [@zhusee2](https://twitter.com/zhusee2). It has made serveral improvements and optimizations for iTunes 12. Color palettes generation is based on the [MMCQ (Median Cut Color Quantization) algorithm](http://www.leptonica.com/papers/mediancut.pdf) from the [Leptonica library](http://www.leptonica.com/).
